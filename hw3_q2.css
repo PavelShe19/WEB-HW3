@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+body {
+    background-image: url("riddler_bg.png");
+   }
+.rcorners1 {
+border-radius: 25px;
+background: rgb(229, 231, 226);
+padding: 20px;
+width: 600px;
+height: 600px;
+margin: auto;
+}
+.headline{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.question{
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+.list{
+    margin: auto;
+}
+.answer{
+        text-align: center;
+        width: 200px;
+        transition: all 0.2s;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+        font-family: 'Lato', sans-serif;
+    }
+    
+.answer:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+    }
