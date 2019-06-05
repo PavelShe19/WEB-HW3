@@ -13,8 +13,7 @@ function run() {
                 $('#yscore').text(score+"/3");
                 localStorage.setItem("score", score.toString());
                 if (score == 3) {
-                    alert("SUCCESS!!!");
-                    //TODO insert link to next page
+                    window.location.href = "hw3_q3.html";
                 }
             }
             getQuestion();
