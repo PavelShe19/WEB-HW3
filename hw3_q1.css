@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://wallpaperplay.com/walls/full/6/d/b/231472.jpg) no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 450px;
+    background: rgba(0,0,0,0.4);
+    padding: 30px;
+    text-align: center;
+    line-height: 2px;
+    margin: auto;
+    margin-top: 15%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    border-radius: 1%;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    line-height: 50px;
+}
