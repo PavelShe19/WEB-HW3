@@ -9,7 +9,7 @@ $.ajax({
         + "&lastName=" + name[1],
     type: "get",
     success: function (data) {
-        $("#message").text(
+        $("#message").html(
             data.value.joke,
 
         );
