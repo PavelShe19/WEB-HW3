@@ -1,6 +1,9 @@
 
 var val = localStorage.getItem("name");
-let name = val.split(" "); //split the name 
+let name = val.split(" "); //split the name
+if(name.length!=2) {
+    name[1] = 'Doe';
+}
 $.ajax({
     url: "http://api.icndb.com/jokes/random?firstName=" + name[0] // take the joke from api and change the name
         + "&lastName=" + name[1],
